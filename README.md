@@ -32,3 +32,7 @@ Get the history of password changes and a hash representing the password:
 With this password history collection, we can produce a report of users who have not changed their passwords in the last ‘x’ days, and can additionally send out alerts or change the password to a random string upon password expiry.
 
 Thoughts, comments, feedback? Create a GitHub issue!
+
+## Setting Up
+
+Schedule the password_change_capture.py script using cron or something similar. The history is stored in password_tracker.password_history.
